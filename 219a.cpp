@@ -31,15 +31,12 @@ int main()
     if (c == 26)
     {
         while (k--)
-        {
-            cout << s1;
-        }
+            cout <<s1;
+    
         cout << endl;
     }
     else
-    {
         cout << -1 << endl;
-    }
-
+    
     return 0;
 }
