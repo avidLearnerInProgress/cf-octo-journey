@@ -2,9 +2,9 @@
 using namespace std;
 
 string name[] = {"Danil", "Olya", "Slava", "Ann" ,"Nikita"};
-int count;
+int xcount;
 void check(string s){
-    for(auto x : name)if(s==x)count++;
+    for(auto x : name)if(s==x)xcount++;
 }
 int main()
 {
@@ -17,7 +17,7 @@ int main()
             check(temp);
         }
     }
-    if(count==1) puts("YES");
+    if(xcount==1) puts("YES");
     else puts("NO");
     return 0;
 }
