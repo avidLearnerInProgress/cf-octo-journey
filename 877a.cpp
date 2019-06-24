@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 string name[] = {"Danil", "Olya", "Slava", "Ann" ,"Nikita"};
-int coun;
+int count;
 void check(string s){
-    for(auto x : name)if(s==x)coun++;
+    for(auto x : name)if(s==x)count++;
 }
 int main()
 {
@@ -16,7 +17,7 @@ int main()
             check(temp);
         }
     }
-    if(coun==1) puts("YES");
+    if(count==1) puts("YES");
     else puts("NO");
     return 0;
 }
