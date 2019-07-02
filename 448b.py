@@ -10,4 +10,4 @@ def subset(a, b):
 if u == v: print("array")
 elif subset(s, t): print("automaton")
 elif subset(u, v): print("both")
-else: print("need tree")
+else: print("need tree")    
